@@ -4,7 +4,7 @@
 
 weight=float(input("w="))
 height=float(input("h="))
-bmi=weight/(height**2)
+bmi=round(weight/(height**2),2) #round the bmi value to 2 decimal places
 a="Your bmi="
 if bmi<18.5:
     b="underweight"
