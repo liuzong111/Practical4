@@ -1,5 +1,6 @@
 #this program aims to identify whether you are too heavy or too thin
-
+#the two critical value are 18.5 and 30
+#bmi is equal to weight/height**2
 
 weight=float(input("w="))
 height=float(input("h="))
